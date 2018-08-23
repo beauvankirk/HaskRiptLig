@@ -6,8 +6,7 @@ The Regular and Bold face styles are taken from [Hasklig](https://github.com/i-t
 
 Unlike similar mashups I've seen, this one allows you to get 'normal' Italic typeface from the primary font (Hasklig) by using 'Bold Italic'.
 
-![image](https://user-images.githubusercontent.com/7041191/30752845-8c8484ce-9f8b-11e7-9df1-1d171b8d5e66.png)
-![Alt text](Capture.jpg?raw=true "Haskell Font Sample in Monokai Theme")
+![Alt text](Capture.JPG?raw=true "Haskell Font Sample in Monokai Theme")
 
 ## Install
 
