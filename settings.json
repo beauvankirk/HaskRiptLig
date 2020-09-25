@@ -1,0 +1,431 @@
+{
+  
+  "editor.fontFamily": "'HaskligScript',monospace, ",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+      "enabled": true,
+      "rules": {
+          "cexpr": {
+              "fontStyle": ""
+          },
+          "class": {
+              "fontStyle": "bold"
+          },
+          "class.declaration": {
+              "fontStyle": "bold underline"
+          },
+          "interface": {
+              "fontStyle": "bold"
+          },
+          "interface.declaration": {
+              "fontStyle": "bold underline"
+          },
+          "disposable": {
+              "fontStyle": ""
+          },
+          "enumMember": {
+              "fontStyle": "italic"
+          },
+          "enumMember:fsharp": {
+              "fontStyle": "bold"
+          },
+          "mutable": {
+              "fontStyle": ""
+          },
+          "regexp": {
+              "fontStyle": ""
+          },
+          "struct": {
+              "fontStyle": ""
+          },
+          "parameter": {
+              "fontStyle": ""
+          },            
+          "typeParameter.declaration": {
+              "fontStyle": "underline"
+          },
+          "*.declaration": {
+              "fontStyle": "underline"
+          },
+          "property.declaration": {
+              "fontStyle": "italic underline"
+          },
+          "property": {
+              "fontStyle": "italic"
+          },
+          "type": {
+              "fontStyle": "bold"
+          },
+          "type.declaration": {
+              "fontStyle": "bold underline"
+          },
+          "member": {
+              "fontStyle": "italic"
+          },
+          "member.declaration": {
+              "fontStyle": "italic underline"
+          },
+          "variable": {
+              "fontStyle": ""
+          },
+          "variable.declaration": {
+              "fontStyle": "underline"
+          },
+
+      }
+  },
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": { "foreground": "#88846f" }
+          },
+          {
+            "name": "String",
+            "scope": [
+                "string", 
+                "string.quoted", 
+                "string.quoted.double.json", 
+                "string.quoted.single.json", 
+                "meta.structure.dictionary.json string.quoted.double.json", 
+                "meta.structure.dictionary.json string.quoted.single.json", 
+                "punctuation.definition.string"
+          ],
+            "settings": { "foreground": "#E6DB74" }
+          },
+          {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": { "foreground": "#AE81FF" }
+          },
+          {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "settings": { "foreground": "#AE81FF" }
+          },
+          {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "settings": { "foreground": "#AE81FF" }
+          },
+          {
+            "name": "Variable",
+            "scope": "variable",
+            "settings": { "foreground": "#FD971F" }
+          },
+          {
+            "name": "Function argument",
+            "scope": [
+                "variable.parameter",
+                "variable"
+            ],
+            "settings": { "foreground": "#FD971F" }
+          },
+          {
+            "name": "Keyword",
+            "scope": [
+                "keyword",
+                "storage.type.function.arrow",
+                "operator",
+                "keyword.operator",
+                "keyword.operator.expression"
+              ],
+            "settings": { "foreground": "#f9268fde" }
+          },
+          {
+            "name": "Import/Export",
+            "scope": [
+                "keyword.control",
+              "keyword.control.import",
+              "keyword.control.export"
+          ],
+            "settings": { "foreground": "#f926738a" }
+          },
+          {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": { "foreground": "#F92672" }
+          },
+            {
+              "name": "Storage type",
+              "scope": "storage.type",
+              "settings": { "foreground": "#66D9EF" }
+          },
+          {
+            "name": "Type name",
+            "scope": [
+                "entity.name.type",
+                "meta.type.declaration string.quoted",
+                "meta.type.declaration string.quoted punctuation.definition.string"
+              ],
+            "settings": { "foreground": "#AE81FF" }
+          },
+          {
+            "name": "Primitive name",
+            "scope": "support.type.primitive",
+            "settings": { "foreground": "#8157d1cb" }
+          },
+          {
+            "name": "Class name",
+            "scope": "entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+            "settings": { "foreground": "#AE81FF" }
+          },
+          {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "settings": { "foreground": "#d6d300" }
+          },
+          {
+            "name": "Interface name",
+            "scope": "entity.name.type.interface, entity.name.interface, interface",
+            "settings": { "foreground": "#ff81ee" }
+          },
+          {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": { "foreground": "#A6E22E" }
+          },
+          {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "settings": { "foreground": "#F92672" }
+          },
+          {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": { "foreground": "#A6E22E" }
+          },
+          {
+            "name": "Property name",
+            "scope": [
+                "property",
+                "property-name",
+                "support.type.property-name",
+                "support.type.property-json",
+                "variable.other.property",
+                "variable.other.constant.property",
+                "variable.object.property"
+              ],
+            "settings": { "foreground": "#72F1B8" }
+          },
+          
+          {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": { "foreground": "#66D9EF" }
+          },
+          {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "settings": { "foreground": "#66D9EF" }
+          },
+          {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "settings": { "foreground": "#66D9EF" }
+          },
+          {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "settings": { "foreground": "#FD971F" }
+          },
+          {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {"foreground": "#F8F8F0" }
+          },
+          {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "settings": { "foreground": "#F8F8F0" }
+          },
+          {
+              "name": "Normalize font style of certain Components",
+              "scope": [
+                  "meta.property-list.css meta.property-value.css variable.other.less",
+                  "meta.property-list.scss variable.scss",
+                  "meta.property-list.sass variable.sass",
+                  "keyword.operator.logical",
+                  "keyword.operator.arithmetic",
+                  "keyword.operator.bitwise",
+                  "keyword.operator.increment",
+                  "keyword.operator.ternary",
+                  "keyword.operator.comparison",
+                  "keyword.operator.assignment",
+                  "keyword.operator.operator",
+                  "keyword.operator.or.regexp",
+                  "punctuation.section.embedded.js",
+                  "punctuation.definintion.string",
+                  "text.html.markdown",
+                  "punctuation",
+                  "entity.name.tag - comment.line.markdown entity.name.tag",
+                  "keyword.symbol",
+                  "meta.type.declaration string.quoted",
+                  "meta.type.declaration string.quoted punctuation.definition.string"
+              ],
+              "settings": {
+                  "fontStyle": ""
+              }
+          },
+          {
+              "name": "Italicsify certain tokens",
+              "scope": [
+                  "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+                  "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+                  "meta.import.js variable.other",
+                  "meta.export.ts meta.block.ts variable.other.readwrite.alias.ts",
+                  "meta.export.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+                  "meta.export.js variable.other",
+                  "entity.name.function",
+                  "entity.other.attribute-name",
+                  "entity.name.tag.custom",
+                  "entity.name.function.member",
+                  "source.js.jsx keyword.control.flow.js",
+                  "support.type.property.css",
+                  "support.function.basic_functions",
+                  "variable.assignment.coffee",
+                  "support.function.basic_functions",
+                  "keyword.operator.type.annotation",
+                  "punctuation.section.embedded",
+                  "assignment.coffee",
+                  "support.constant.math",
+                  "meta.object-literal.key",
+                  "meta.structure.dictionary.value",
+                  "meta.object.member variable.other.readwrite",
+                  "meta.definition.property variable.object.property",
+                  "meta.attribute",
+                  "meta.function-call",
+                  "meta.function-call entity.name.function.member",
+                  "meta.function-call entity.name.function",
+                  "meta.definition entity.name.function",
+                  "italic",
+                  "quote",
+                  "storage",
+                  "language",
+                  "type .function",
+                  "type.function",
+                  "storage.type",
+                  "meta.parameter",
+                  "meta.parameters",
+                  "this",
+                  "string",
+                  "parameter",
+                  "variable.parameter",
+                  "type.var",
+                  "comment"
+              ],
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "name": "Bold Italicsify certain tokens",
+              "scope": [
+                  "keyword",
+                  "modifier",
+                  "storage.modifier",
+                  "storage.type",
+                  "storage.type.ts",
+                  "support.type.primitive",
+                  "meta.var.expr.ts storage.type.ts",
+                  "keyword.control",
+                  "variable.language.this",
+                  "var.this,variable.language.this.js",
+                  "variable.language.this.ts",
+                  "variable.language.this.jsx",
+                  "variable.language.this.tsx",
+                  "meta.decorator",
+                  "meta.decorator variable.other.readwrite",
+                  "binding.fsharp keyword.fsharp",
+                  "meta.arrow",
+                  "meta.arrow storage.type.function.arrow"
+              ],
+              "settings": {
+                  "fontStyle": "bold italic"
+              }
+          },
+          {
+              "name": "Un-italicsify certain tokens",
+              "scope": [
+                  "keyword.other.double-colon.haskell",
+                  "keyword.other.arrow.haskell",
+                  "keyword.other.big-arrow.haskell"
+              ],
+              "settings": {
+                  "fontStyle": ""
+              }
+          },
+          {
+              "name": "Bold certain tokens",
+              "scope": [
+                  "support.type.property-name.json",
+                  "meta.class entity.other.inherited-class",
+                  "namespace.open entity.name.section",
+                  "namespace",
+                  "entity.name.namespace",
+                  "meta.tag entity.name.tag",
+                  "entity.name.type"
+              ],
+              "settings": {
+                  "fontStyle": "bold"
+              }
+          },
+          {
+              "name": "Underline certain tokens",
+              "scope": [
+                  "binding variable",
+                  "meta.definition.variable variable.other.constant",
+                  "meta.var.expr storage.type"
+              ],
+              "settings": {
+                  "fontStyle": "underline"
+              }
+          },
+          {
+              "name": "Bold Underline certain tokens",
+              "scope": [
+                  "meta.interface entity.name.type.interface",
+                  "meta.class entity.name.type.class",
+                  "entity.name.section entity.name.namespace",
+                  "binding.fsharp variable.fsharp"
+              ],
+              "settings": {
+                  "fontStyle": "bold underline"
+              }
+          },
+          {
+              "name": "Bold Italic Underline certain tokens",
+              "scope": [],
+              "settings": {
+                  "fontStyle": "bold italic underline"
+              }
+          },
+          {
+              "name": "Italic Underline certain tokens",
+              "scope": [
+                  "meta.class meta.definition.property variable.object.property",
+                  "meta.definition entity.name.function",
+                  "meta.function entity.name.function",
+                  "binding.fsharp entity.name.function"
+              ],
+              "settings": {
+                  "fontStyle": "italic underline"
+              }
+          }
+      ]
+  },
+  "workbench.colorCustomizations": {
+      "contrastBorder": "#5d5d7933",
+      "editor.background": "#110d24",
+      "editorLineNumber.activeForeground": "#ffffffee",
+      "editor.selectionBackground": "#ffffff3a",
+      "editor.selectionHighlightBackground": "#cb46ff49",
+      "activityBarBadge.background": "#f97d7296",
+      "extensionButton.prominentBackground": "#ff7d7162",
+      "menu.background": "#4a345ed2",
+      "menu.foreground": "#f4e8ff",
+  },
+  "workbench.preferredDarkColorTheme": "Default Dark+"
+}
